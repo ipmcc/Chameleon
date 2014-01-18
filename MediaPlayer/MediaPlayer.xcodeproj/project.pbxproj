@@ -29,6 +29,13 @@
 			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
 			remoteInfo = UIKit;
 		};
+		D9D9AA92188AE9FD00F408AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C16787213C71F8A00814195 /* UIKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = UIKit;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -178,6 +185,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				D9D9AA93188AE9FD00F408AE /* PBXTargetDependency */,
 			);
 			name = MediaPlayer;
 			productInstallPath = "$(HOME)/Library/Frameworks";
@@ -251,6 +259,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9D9AA93188AE9FD00F408AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UIKit;
+			targetProxy = D9D9AA92188AE9FD00F408AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
